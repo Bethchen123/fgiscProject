@@ -1,0 +1,146 @@
+*{
+  font-family: sans-serif;
+}
+head, body{
+  margin: 0px;
+  padding: 0px;
+}
+.container{
+  background-color: #dfefca;
+  height: 100vh;
+  width: 100vw;
+  padding: 30px 50px 50px 100px;
+  margin: 0px;
+}
+.titlebg{
+  background-color: #dfefca;
+  padding: 30px 0px 0px 0px;
+}
+.title{
+  display: flex;
+  background-color: #afc2d5;
+  border-radius: 50px;
+  height: 80px;
+  width: 300px;
+  margin: auto;
+}
+h1{
+  text-align: center;
+  margin: auto;
+  border-radius: 50px;
+  color: #412c25;
+}
+h2{
+  text-align: center;
+  color: #412c25;
+}
+
+.flex-container{
+  height: auto;
+  width: auto;
+  display: inline-flex;
+  flex-direction: row;
+  background-color: #dfefca;
+  margin: 30px 0px 0px 30px;
+  /* margin-top: 30px; */
+}
+.input{
+  height: 470px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  background-color: #C9D3F8;
+  color: #412c25;
+  border: 8px #BDC3C7 solid ;
+  margin-right: 30px;
+  padding: 30px 25px 0px 25px;
+  border-radius: 30px;
+}
+
+.output-container{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  border-radius: 20px;
+  border: 8px #BDC3C7 solid;
+  background-color: #C9D3F8;
+  padding: 10px;
+  
+}
+
+.grid-container {
+    display: flex;
+    height: auto;
+    width: auto;
+    background-color: #C9D3F8;
+    padding: 10px;
+    margin-left: 10px;
+
+  }
+  
+
+.inNum{
+  width: 100px;
+  height: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: large;
+  border-radius: 20px;
+  color: #412c25 ;
+  background-color: #FFFAAD;
+}
+.grid{
+  background-color: #FFFAAD;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 4px #90B69D solid;
+}
+.seat{
+  text-align: center;
+  margin: auto;
+  padding: 15px 0px 0px 0px;
+  color: #412c25;
+}
+h3{
+  text-align: center;
+  margin: auto;
+  color: #412c25;
+}
+#btn{
+  width: 100px;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: large;
+  border-radius: 20px;
+  background-color: #3F5D78;
+  color: #FFFAAD;
+}
+.table{
+  display: flex;
+  width: 100px;
+  height: 50px;
+  margin: 10px auto;
+  background-color: #FFC6AD;
+  border: 4px #92B6C8 solid;
+  border-radius: 20px;
+
+
+}
+.table-container{
+  background-color: #C9D3F8;
+  width: auto;
+  height: auto;
+}
+::placeholder{
+  flex: 1;
+  text-align: center;
+  color: #412c25;
+  align-content: center;
+  margin: auto;
+
+}
